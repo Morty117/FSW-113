@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bug Tracker</title>
+        <link rel="stylesheet" href="./Bug.css">
+    </head>
+    <body>
+        <h1 class="header">Bug Tracker</h1>
+
+        <form class="form" name="bugForm">
+            <h2>Report a Bug</h2>
+            <input id="employee" type="text" name="employee" placeholder="Employee Name"><br>
+            <input id="department" type="text" name="department" placeholder="Department"><br>
+            <input id="bugLocation" type="text" name="bugLocation" placeholder="Bug Location"><br>
+            <textarea id="bugDescription" name="bugDescription" placeholder="What bug(s) issue are you experiencing?" cols="30" rows="10"></textarea> <br>
+            <button id="submit" type="button">Submit Report</button>
+        </form>
+
+        <div id="container"></div>
+
+        <script src="./Bug.js"></script>
+    </body>
+</html>
